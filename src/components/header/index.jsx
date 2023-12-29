@@ -1,20 +1,26 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   return (
     <header>
-      <h1>Sou o cabeçalho</h1>
+      <Link to={"/"}>
+        <img src="" alt="Logo" />
+      </Link>
       <nav>
         <ul>
+          <Link to={"/about"}>
+            <li>
+              <span>Sobre</span>
+            </li>
+          </Link>
           <li>
-            <a href="#">Página inicial</a>
-          </li>
-          <li>
-            <a href="#">Sobre</a>
-          </li>
-          <li>
-            <a href="#">Contato</a>
+            <Link to={"/projects"}>
+              <span>projetos</span>
+            </Link>
           </li>
         </ul>
       </nav>
+      <button>Contato</button>
     </header>
   );
 };
