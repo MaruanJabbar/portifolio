@@ -1,10 +1,14 @@
 import { DefaultTemplate } from "../../components/defaultTemplate";
 import { Link } from "react-router-dom";
+import { AboutSection } from "../../components/aboutSection";
+
 
 export const HomePage = () => {
   return (
     <DefaultTemplate>
-      <h1>Eu sou a homepage</h1>
+      <div>
+        <AboutSection />
+      </div>
     </DefaultTemplate>
   );
 };

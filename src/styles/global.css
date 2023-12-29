@@ -1,0 +1,14 @@
+:root{
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+
+    --color-white: #ffffff;
+    --color-black: #000000;
+
+    --font-size-h1: 48px;
+    --font-size-h2: 40px;
+    --font-size-h3: 22px;
+    --font-size-label: 14px;
+    --font-size-link: 16px;
+    --font-size-p: 16px;
+}
