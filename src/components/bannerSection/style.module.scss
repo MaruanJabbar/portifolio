@@ -1,0 +1,21 @@
+.flexBox{
+    margin-top: 90px;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 90px;
+}
+
+.leftFlexBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightFlexBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonBanner{
+    width: 40%;
+}

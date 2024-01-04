@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .title {
   font-family: var(--font-primary);
@@ -11,10 +11,16 @@
 
   &.two {
     font-size: var(--font-size-h2);
+    &.card {
+      color: white;
+    }
   }
 
   &.three {
     font-size: var(--font-size-h3);
+    &.card {
+      color: white;
+    }
   }
 }
 
@@ -33,6 +39,7 @@
   font-weight: 700;
   line-height: 1.6;
   font-size: var(--font-size-link);
+  color: var(--color-primary);
   &.button {
     font-size: var(--font-size-label);
     color: var(--color-white);
@@ -45,8 +52,11 @@
   line-height: 1.6;
   font-size: var(--font-size-p);
   color: var(--color-white);
-  &.name{
-    font-family: 'Poppins';
+  &.name {
+    font-family: "Poppins";
     color: var(--color-primary);
+  }
+  &.card {
+    color: white;
   }
 }

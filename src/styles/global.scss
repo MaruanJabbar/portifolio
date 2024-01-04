@@ -4,6 +4,8 @@
     --color-primary-hover: #7C91FF;
     --color-white: #ffffff;
     --color-black: #000000;
+    --border--color: 1px solid #FFF;
+    --card-background: transparent;
     --background: linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%);
     --font-size-h1: clamp(2.625rem, 6vw, 3rem);
     --font-size-h2: clamp(2.25rem, 3vw, 2.5rem);
@@ -12,3 +14,20 @@
     --font-size-link: 1rem;
     --font-size-p: 1rem;
 }
+
+.light-mode:root {
+    --font-primary: 'Inter', sans-serif;
+    --color-primary: #6880FF;
+    --color-primary-hover: #7C91FF;
+    --color-black: #ffffff;
+    --color-white: #000000;
+    --border--color: 1px solid #000000;
+    --card-background: rgba(12, 12, 12, 0.94);
+    --background: #ffffff;
+    --font-size-h1: clamp(2.625rem, 6vw, 3rem);
+    --font-size-h2: clamp(2.25rem, 3vw, 2.5rem);
+    --font-size-h3: 1.375rem;
+    --font-size-label: 0.875rem;
+    --font-size-link: 1rem;
+    --font-size-p: 1rem;
+  }

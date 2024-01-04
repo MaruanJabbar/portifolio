@@ -3,7 +3,9 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 1.5rem;
-  &.sm {
-    max-width: 850px;
+  &.footer {
+    border-top: var(--border--color);
+    border-bottom: var(--border--color);
+    margin-bottom: 30px;
   }
 }

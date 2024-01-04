@@ -1,0 +1,13 @@
+.stackFlexBox{
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stackList {
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}

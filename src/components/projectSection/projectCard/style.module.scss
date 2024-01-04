@@ -1,0 +1,18 @@
+.projectCard {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 180px;
+  border-radius: 25px;
+  border: var(--border--color);
+  background-color: var(--card-background);
+  padding-left: 33px;
+  justify-content: space-between;
+  padding: 16px 21px 20px 33px;
+}
+
+.projectCardRight{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
