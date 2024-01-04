@@ -49,3 +49,28 @@ table {
 a{
   text-decoration: none;
 }
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+button{
+	cursor: pointer;
+	border: none;
+	background: transparent;
+}
+
+input, select, textarea{
+	border: none;
+	background: transparent;
+}

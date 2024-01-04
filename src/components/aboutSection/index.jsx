@@ -2,20 +2,15 @@ export const AboutSection = () => {
   return (
     <section>
       <div>
-        <img src="" alt="" />
-        <p>Maruan Jabbar Drehmer</p>
+        <h1 className="title two">Sobre mim</h1>
       </div>
       <div>
-        <h3>Especialização</h3>
-        <p>Descrição</p>
-      </div>
-      <div>
-        <h3>Experiencia</h3>
-        <ul>
-          <li>
-            <span>Html</span>
-          </li>
-        </ul>
+        <p className="paragraph"> 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna, imperdiet sodales sem quis,
+          sollicitudin lobortis purus. Etiam a ipsum finibus, dictum leo non, ultrices dui. Nunc id felis pharetra,
+          vehicula enim in, suscipit nisi. Mauris eget sapien a velit facilisis ullamcorper feugiat nec orci. Duis ac
+          iaculis turpis, at feugiat orci.
+        </p>
       </div>
     </section>
   );

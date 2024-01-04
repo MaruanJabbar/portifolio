@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  line-height: 1.6;
+  color: var(--color-white);
+  &.one {
+    font-size: var(--font-size-h1);
+  }
+
+  &.two {
+    font-size: var(--font-size-h2);
+  }
+
+  &.three {
+    font-size: var(--font-size-h3);
+  }
+}
+
+.label {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: var(--font-size-label);
+  &.nav {
+    color: var(--color-white);
+  }
+}
+
+.link {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  line-height: 1.6;
+  font-size: var(--font-size-link);
+  &.button {
+    font-size: var(--font-size-label);
+    color: var(--color-white);
+  }
+}
+
+.paragraph {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: var(--font-size-p);
+  color: var(--color-white);
+  &.name{
+    font-family: 'Poppins';
+    color: var(--color-primary);
+  }
+}

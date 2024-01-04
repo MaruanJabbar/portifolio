@@ -1,5 +1,7 @@
 import { HomePage } from "./pages/home";
 import { RoutesMain } from "./routes";
+import "./styles/index.scss"
+
 function App() {
   return (
     <>

@@ -10,17 +10,17 @@ export const Header = () => {
         <ul>
           <Link to={"/about"}>
             <li>
-              <span>Sobre</span>
+              <span className="label nav">Sobre</span>
             </li>
           </Link>
           <li>
             <Link to={"/projects"}>
-              <span>projetos</span>
+              <span className="label nav">projetos</span>
             </Link>
           </li>
         </ul>
       </nav>
-      <button>Contato</button>
+      <button className="button">Contato</button>
     </header>
   );
 };
