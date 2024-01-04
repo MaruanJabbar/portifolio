@@ -11,9 +11,16 @@
   font-weight: 700;
   line-height: 1.6;
   font-size: var(--font-size-label);
-  color: var(--color-white);
-  transition: .4;
+  color: #ffffff;
+  transition: 0.4;
   &:hover {
     background: var(--color-primary-hover);
   }
+}
+
+.button-theme {
+  display: inline-flex;
+  background: var(--color-button-theme);
+  padding: 5px;
+  border-radius: 3px;
 }

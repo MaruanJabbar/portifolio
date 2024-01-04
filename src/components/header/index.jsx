@@ -5,20 +5,28 @@ import moon from "../../assets/icons/moon.svg";
 import { useEffect, useState } from "react";
 
 export const Header = () => {
-  const [isLightMode, setIsDarkMode] = useState(false);
+  const savedMode = JSON.parse(localStorage.getItem('@THEME'));
+  const [isLightMode, setIsLightMode] = useState(savedMode ? savedMode : false);
 
   const lightmode = () => {
-    const html = document.querySelector("html");
-    const result = html.classList.toggle("light-mode");
-    setIsDarkMode(!isLightMode);
-    console.log(isLightMode)
-    localStorage.setItem("@THEME", isLightMode);
+    setIsLightMode(prevMode => {
+      const newMode = !prevMode;
+      const html = document.querySelector('html');
+      html.classList.toggle('light-mode', newMode);
+      return newMode;
+    });
   };
 
   useEffect(() => {
-    const savedMode = localStorage.getItem("@THEME");
-    console.log(savedMode);
-  }, []);
+    const html = document.querySelector('html');
+    if (isLightMode) {
+      html.classList.add('light-mode');
+      localStorage.setItem('@THEME', JSON.stringify(isLightMode));
+    } else {
+      html.classList.remove('light-mode');
+      localStorage.setItem('@THEME', JSON.stringify(isLightMode));
+    }
+  }, [isLightMode]);
 
   return (
     <header>
@@ -39,7 +47,7 @@ export const Header = () => {
               </li>
             </ul>
           </nav>
-          <button className="button--theme" onClick={lightmode}>
+          <button className="button-theme" onClick={lightmode}>
             {isLightMode ? <img src={moon} alt="Icone sun" /> : <img src={sun} alt="Icone sol" />}
           </button>
         </div>
