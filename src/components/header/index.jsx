@@ -8,7 +8,7 @@ export const Header = () => {
   const savedMode = JSON.parse(localStorage.getItem('@THEME'));
   const [isLightMode, setIsLightMode] = useState(savedMode ? savedMode : false);
 
-  const lightmode = () => {
+  const lightMode = () => {
     setIsLightMode(prevMode => {
       const newMode = !prevMode;
       const html = document.querySelector('html');
@@ -32,7 +32,7 @@ export const Header = () => {
     <header>
       <div className="container">
         <div className={styles.flexBox}>
-          <button className="button">Contato</button>
+          <div></div>
           <nav>
             <ul className={styles.ulNav}>
             <Link to={"/"}>
@@ -52,8 +52,8 @@ export const Header = () => {
               </li>
             </ul>
           </nav>
-          <button className="button-theme" onClick={lightmode}>
-            {isLightMode ? <img src={moon} alt="Icone sun" /> : <img src={sun} alt="Icone sol" />}
+          <button className="button-theme" onClick={lightMode}>
+            {isLightMode ? <img src={moon} alt="Ícone sun" /> : <img src={sun} alt="Ícone sol" />}
           </button>
         </div>
       </div>

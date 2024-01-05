@@ -9,7 +9,7 @@ export const BannerSection = () => {
         <div className={styles.flexBox}>
           <div className={styles.leftFlexBox}>
             <h1 className="title two">Bem vindo ao meu portfólio</h1>
-            <p className="paragraph">Aqui está diposto informações de trabalho e meus projetos</p>
+            <p className="paragraph">Aqui está disposto informações de trabalho e meus projetos</p>
             <Link className={`button ${styles.buttonBanner}`} to={"/projects"}>
               <span className="label">Saiba mais</span>
             </Link>

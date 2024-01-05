@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { DefaultTemplate, BannerSection, AboutSection, StackSection, ProjectSction } from "../../components";
+import { DefaultTemplate, BannerSection, AboutSection, StackSection, ProjectSection } from "../../components";
 export const HomePage = () => {
   return (
     <DefaultTemplate>
@@ -7,7 +7,7 @@ export const HomePage = () => {
         <BannerSection/>
         <AboutSection />
         <StackSection />
-        <ProjectSction />
+        <ProjectSection />
       </div>
     </DefaultTemplate>
   );

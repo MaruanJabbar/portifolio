@@ -10,7 +10,7 @@ export const ProjectSectionCards = ({ project }) => {
         <a className="link" href={project.link} target="_blank" rel="noopener noreferrer">Saiba mais</a>
       </div>
       <div>
-        <img className={styles.gitHubIcon} src={GitIcon} alt="Icone do Git Hub" />
+        <img className={styles.gitHubIcon} src={GitIcon} alt="Ícone do Git Hub" />
       </div>
     </li>
   );

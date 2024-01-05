@@ -1,7 +1,7 @@
 import { DefaultTemplate } from "./defaultTemplate";
 import { AboutSection } from "./aboutSection";
 import { BannerSection } from "./bannerSection";
-import { ProjectSction } from "./projectSection";
+import { ProjectSection } from "./projectSection";
 import { StackSection } from "./stackSection";
 
-export {DefaultTemplate, AboutSection, BannerSection, ProjectSction, StackSection}
+export {DefaultTemplate, AboutSection, BannerSection, ProjectSection, StackSection}

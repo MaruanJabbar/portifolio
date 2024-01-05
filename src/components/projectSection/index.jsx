@@ -2,7 +2,7 @@ import { projects } from "../../data/projects";
 import { ProjectSectionCards } from "./projectCard";
 import styles from "./style.module.scss";
 
-export const ProjectSction = () => {
+export const ProjectSection = () => {
   return (
     <section>
       <div className="container">

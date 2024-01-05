@@ -1,3 +1,19 @@
 .flexBox{
     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+.experienceList{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.experienceFlexBox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
