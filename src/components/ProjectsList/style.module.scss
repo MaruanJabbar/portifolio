@@ -1,0 +1,12 @@
+.flexBox{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.projectList{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+}

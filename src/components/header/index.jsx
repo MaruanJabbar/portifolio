@@ -35,6 +35,11 @@ export const Header = () => {
           <button className="button">Contato</button>
           <nav>
             <ul className={styles.ulNav}>
+            <Link to={"/"}>
+                <li>
+                  <span className="label nav">Home</span>
+                </li>
+              </Link>
               <Link to={"/about"}>
                 <li>
                   <span className="label nav">Sobre</span>

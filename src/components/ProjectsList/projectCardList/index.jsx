@@ -3,11 +3,11 @@ import GitIcon from "../../../assets/git-icon.svg";
 
 export const ProjectSectionCards = ({ project }) => {
   return (
-    <li className={styles.projectCard}>
+    <li className={styles.projectCardList}>
       <div className={styles.projectCardRight}>
         <h3 className="title three card">{project.name}</h3>
-        <p className="paragraph card">{project.shortDescription}</p>
-        <a className="link" href={project.link} target="_blank" rel="noopener noreferrer">Saiba mais</a>
+        <p className="paragraph card">{project.description}</p>
+        <a className="link" href={project.link} target="_blank">Saiba mais</a>
       </div>
       <div>
         <img className={styles.gitHubIcon} src={GitIcon} alt="Icone do Git Hub" />
